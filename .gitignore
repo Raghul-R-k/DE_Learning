@@ -1,0 +1,24 @@
+# Ignore Python virtual environment
+docker_sql/venv/
+
+# Ignore Terraform secrets/keys
+terrademo/keys/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Log files
+*.log
+
+# Ignore system files
+.DS_Store
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Optional: Ignore Terraform state files
+terrademo/*.tfstate
+terrademo/*.tfstate.*
+terrademo/.terraform/
